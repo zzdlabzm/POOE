@@ -7,7 +7,7 @@ In this work, we use the sequence representaions from a pre-trained LPLM (ProtTr
 3. negativedata1098: From the putative 3337 non-effectors, 1098 negative samples were selected according to the species of positive samples based on the positives to negatives ratios of 1:2.<br>
 4. negativedata1670: From the putative 3337 non-effectors, 1670 negative samples were selected according to the species of positive samples based on the positives to negatives ratios of 1:3.<br>
 
-#Model
+# Model
 Five models obtained in 5-fold cross-validation of POOE.<br>
 
 # Webserver
