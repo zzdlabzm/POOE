@@ -11,7 +11,8 @@ In this work, we use the sequence representaions from a pre-trained LPLM (ProtTr
 Five models obtained in 5-fold cross-validation of POOE.<br>
 
 # Code
-Configure the environment of ProtTrans (https://github.com/agemagician/ProtTrans) and run it according to the instructions of the script.sh, you will get a score and whether it is an oomycete effector.
+Configure the environment of ProtTrans (https://github.com/agemagician/ProtTrans) and run it according to the instructions of the script.sh, you will get a score and whether it is an oomycete effector. Script description in script.sh: the first parameter represents input fasta, the second one represents temporary oysters, and the third one represents specificity. For example：
+    Bash ./script.sh input.fasta tmp_dir 0.9    
 
 # Webserver
 The webserver of POOE is freely aceesible at http://zzdlab.com/pooe/index.php. 
