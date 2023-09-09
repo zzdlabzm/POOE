@@ -33,7 +33,7 @@ Run the six encoding schemes code to generate the features.<br>
 * temp.sh:  Bash code for running generate_prottrans.py.<br>
 
 ```
-# For ESM and ProtTrans
+# Example for ProtTrans
 # Create the conda runtime environment from the provided yaml file
 cd ./data/training_data/positivedata549.fasta
 cd ./code/ProtTrans
