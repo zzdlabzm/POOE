@@ -21,10 +21,20 @@ We used POOE to conduct proteome-wide identification of effectors on *Phytophtho
 
 # Features
 Run the six encoding schemes code to generate the features.<br>
+
+**FOr ESM**<br>
+esm.yaml: Conda configuration environment for ESM.<br>
+generate_ESM.py: Script for generate ESM feature.<br>
+temp.sh: Bash code for running generate_ESM.py.<br>
+
+**FOr ProtTrans**<br>
+prottrans.yaml: Conda configuration environment for ProtTrans.<br>
+generate_prottrans.py: Script for generate ProtTrans feature.<br>
+temp.sh: Bash code for running generate_prottrans.py.<br>
+
 ```
 # For ESM and ProtTrans
 # Create the conda runtime environment from the provided yaml file
-# Example
 cd ./data/training_data/positivedata549.fasta
 cd ./code/ProtTrans
 python generate_prottrans.py
