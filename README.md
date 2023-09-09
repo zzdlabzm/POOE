@@ -43,7 +43,8 @@ python generate_prottrans.py
 Five models obtained in 5-fold cross-validation of POOE.<br>
 
 # Scripts
-Run the script.sh, you will get a score and whether it is an oomycete effector. Script description in script.sh: the first parameter represents input fasta, the second one represents temporary folder, and the third one represents specificity. For example：<br>
+* training_SVM: Training and testing code for SVM.
+* Run the script.sh, you will get a score and whether it is an oomycete effector. Script description in script.sh: the first parameter represents input fasta, the second one represents temporary folder, and the third one represents specificity. For example：<br>
 ```Bash
 bash ./script.sh input.fasta tmp_dir 0.9
 ```
