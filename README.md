@@ -5,7 +5,7 @@ In this work, we use the sequence representaions from a pre-trained LPLM (ProtTr
 
 **1. train_data**<br>
 
-  positivedata549     # 549 oomycete effectors from eight species were retained and regarded as the positive data.<br>
+- [Heading One](positivedata549） 549 oomycete effectors from eight species were retained and regarded as the positive data.<br>
   negativedata549     # 549 negative samples were selected from the putative 3337 non-effectors based on the positives to negatives ratios of 1:1.<br>
   negativedata1098  # 1098 negative samples were selected from the putative 3337 non-effectors based on the positives to negatives ratios of 1:2.<br>
   negativedata1670  # 1670 negative samples were selected from the putative 3337 non-effectors based on the positives to negatives ratios of 1:3.<br>
