@@ -22,8 +22,8 @@ We used POOE to conduct proteome-wide identification of effectors on *Phytophtho
 # Model
 Five models obtained in 5-fold cross-validation of POOE.<br>
 
-# Code
-Run the generation code to generate the features.<br>
+# features
+Run the six encoding schemes code to generate the features.<br>
 ```
 # For ESM and ProtTrans
 # Create the conda runtime environment from the provided yaml file
