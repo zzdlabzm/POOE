@@ -19,7 +19,7 @@ In this work, we use the sequence representaions from a pre-trained LPLM (ProtTr
 
 We used POOE to conduct proteome-wide identification of effectors on *Phytophthora parasitica*. After the initial filtering, 1515 out of 22979 proteins in *Phytophthora parasitica* were predicted as secreted proteins without transmembrane regions and were further submitted to POOE. At a Specificity control of 89.8% (i.e., false positive rate at 10.2%), 324 effector proteins were predicted in *Phytophthora parasitica*. We showed the 324 effector proteins and corresponding scores.<br>
 
-# features
+# Features
 Run the six encoding schemes code to generate the features.<br>
 ```
 # For ESM and ProtTrans
