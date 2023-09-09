@@ -28,7 +28,7 @@ Run the generation code to generate the features.<br>
 # For ESM and ProtTrans
 # Create the conda runtime environment from the provided yaml file
 # Example
-tar -xvf ./data/training_data/positivedata549.fasta
+cd ./data/training_data/positivedata549.fasta
 cd ./code/ProtTrans
 python generate_prottrans.py
 ```
@@ -36,7 +36,7 @@ python generate_prottrans.py
 # Scripts
 Configure the environment of ProtTrans (https://github.com/agemagician/ProtTrans) and run it according to the instructions of the script.sh, you will get a score and whether it is an oomycete effector. Script description in script.sh: the first parameter represents input fasta, the second one represents temporary folder, and the third one represents specificity. For example：<br>
 ```Bash
-Bash ./script.sh input.fasta tmp_dir 0.9
+bash ./script.sh input.fasta tmp_dir 0.9
 ```
 
 # Webserver
