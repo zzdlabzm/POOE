@@ -13,34 +13,30 @@ In this work, we use the sequence representations from a pre-trained LPLM (ProtT
 **2. additional_data**<br>
 
 * Additional_test_38： 38 effectors from 8 species that were not included in positivedata549 because they were fewer than 10 effectors for individual species.<br>
-* Additional_test_29： 29 effectors newly collected effectors since 2022.<br>
+* Additional_test_29： 29 recently reported effectors (since 2022) that were not included in positivedata549 and additional_test_38.<br>
 
 **3. genome_results**<br>
 
-We used POOE to conduct proteome-wide identification of effectors on *Phytophthora parasitica*. We showed the 324 effector proteins in *Phytophthora parasitica* and corresponding scores.<br>
+We used POOE and EffectorO to conduct proteome-wide identification of effectors on *Phytophthora parasitica*. We showed the 324 and 406 effector proteins in *Phytophthora parasitica* and corresponding scores predicted by POOE and EffectorO, respectively.<br>
+
+**4. train_test_seqname**<br>
+We showed sequence names of the training and test sets with five-fold cross-validation based on the positives to negatives ratio of 1:3.<br>
 
 # Features
-Run the six encoding schemes code to generate the features.<br>
+Codes for generating six encoding schemes reported in our POOE article.<br>
 
 **For ESM**<br>
 * esm.yaml:  Conda configuration environment for ESM.<br>
-* generate_ESM.py:  Script for generate ESM feature.<br>
-* temp.sh:  Bash code for running generate_ESM.py.<br>
+* generate_ESM.py:  Script for generating ESM feature.<br>
+* example.sh:  Bash code for running generate_ESM.py.<br>
 
 **For ProtTrans**<br>
 * prottrans.yaml:  Conda configuration environment for ProtTrans.<br>
 * generate_prottrans.py:  Script for generate ProtTrans feature.<br>
-* temp.sh:  Bash code for running generate_prottrans.py.<br>
+* example.sh:  Bash code for running generate_prottrans.py.<br>
 
-```
-# Example for ProtTrans
-# Create the conda runtime environment from the provided yaml file
-cd ./data/training_data/positivedata549.fasta
-cd ./code/ProtTrans
-python generate_prottrans.py
-```
 # Model
-Five models obtained in 5-fold cross-validation of POOE.<br>
+Final prediction models of POOE obtained in 5-fold cross-validation.<br>
 
 # Scripts
 * training_SVM: Training and testing code for SVM.
@@ -50,4 +46,4 @@ bash ./script.sh input.fasta tmp_dir 0.9
 ```
 
 # Webserver
-The webserver of POOE is freely aceesible at http://zzdlab.com/pooe/index.php. 
+The webserver of POOE is freely accessible at http://zzdlab.com/pooe/index.php. 
