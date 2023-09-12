@@ -20,6 +20,7 @@ In this work, we use the sequence representations from a pre-trained LPLM (ProtT
 We used POOE and EffectorO to conduct proteome-wide identification of effectors on *Phytophthora parasitica*. We showed the 324 and 406 effector proteins in *Phytophthora parasitica* and corresponding scores predicted by POOE and EffectorO, respectively.<br>
 
 **4. train_test_seqname**<br>
+
 We showed sequence names of the training and test sets with five-fold cross-validation based on the positives to negatives ratio of 1:3.<br>
 
 # Features
