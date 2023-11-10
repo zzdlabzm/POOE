@@ -35,7 +35,7 @@ In this work, we use the sequence representations from a pre-trained LPLM (ProtT
   height:54.0pt'>
   <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
   style='font-size:10.0pt;mso-bidi-font-size:10.5pt;font-family:"Times New Roman",serif;
-  mso-fareast-font-family:宋体;mso-font-kerning:0pt'>Number of all potential negative
+  mso-fareast-font-family:宋体;mso-font-kerning:0pt'>Number of all putative negative
   samples<o:p></o:p></span></p>
   </td>
   <td width=297 colspan=3 style='width:70.9pt;border-top:solid windowtext 1.0pt;
